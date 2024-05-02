@@ -118,7 +118,7 @@ Exporting Data as CSV from all queries
 
  Budget Amount = SUM(FACT_Budget[Budget])
 
- Sales / Budget Amount = DIVIDE( FACT_InternetSales_SQLData[Sales] ,FACT_Budget[Budget Amount]) in percentage 
+ Sales / Budget Amount = DIVIDE( [Sales] , [Budget Amount]) in percentage 
 
  Sales - Budget = [Sales] - [Budget Amount]
 
