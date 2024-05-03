@@ -14,7 +14,7 @@ Sales Budget (Sent Over)
 
 - We measure our numbers against budget so I added that in a spreadsheet so we can compare our values against performance.
 
-- The budget is for 2024 and we usually look 2 years back in time when we do analysis of sales.
+- The budget is for 2021 and we usually look 2 years back in time when we do analysis of sales.
 
 
 #### Making a Business Demand Overview and User Story Table to summarize and visualise all the Business requirements 
@@ -54,7 +54,7 @@ Commenting the columns which are not required for the analysis
 
 - Adding a MonthShort Column which can be Useful for front end date navigation and front end graphs
 
-- Using WHERE CalendarYear >= YEAR(GETDATE()) -2 to ensure we  look 2 years back in time when we do analysis of sales
+- Using WHERE CalendarYear >= 2019 to ensure we  look 2 years back in time when we do analysis of sales
 
 #### Cleansed DIM_Customers Table
 
